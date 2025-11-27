@@ -33,5 +33,5 @@ The main objective of this task is to initialize the project structure and estab
 The following specific items are required as proof of completion for Task 1:
 
 • **Repository Screenshot:** A clear screenshot of your GitHub repository's main page showing the complete file structure created in this task.
-• **DVC Execution Screenshot:** A screenshot of your terminal/command line showing the successful execution of both the `dvc status` and `dvc push` commands. This proves the data is versioned and successfully mirrored to the remote storage.
+• **DVC Execution Screenshot:** A screenshot of your terminal/command line showing the successful execution of both the `dvc status` and `dvc push` commands. This proves the data is versioned and successfully mirrored to the remote storage.<br>
 • **`requirements.txt` Content:** The raw text content of your `requirements.txt` file, listing the essential libraries.
