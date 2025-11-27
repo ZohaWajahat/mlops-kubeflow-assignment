@@ -14,3 +14,14 @@ To design, implement, and manage a complete Machine Learning Operations (MLOps) 
 • kubectl<br>
 • Scikit-learn<br>
 • Jenkins/GitHub Workflows<br>
+
+## Task 1: Project Setup & DVC
+The main objective of this task is to initialize the project structure and establish data versioning for reproducibility. <br>* [ ] Create public GitHub repository named `mlops-kubeflow-assignment`.
+* [ ] Clone the repository and create the directory structure (`data/`, `src/`, `components/`).
+* [ ] Create all required base files (`pipeline_components.py`, `model_training.py`, `pipeline.py`, `requirements.txt`, `Dockerfile`, `Jenkinsfile`).
+* [ ] Choose a simple dataset (e.g., Boston housing) and place it in `data/`.
+* [ ] Initialize DVC (`dvc init`).
+* [ ] Set up DVC remote storage (e.g., local folder, GDrive, or S3).
+* [ ] Track the dataset with DVC (`dvc add data/raw_data.csv`).
+* [ ] Push the data to the DVC remote (`dvc push`).
+* [ ] Commit DVC meta-files (`.dvc/` files and data pointers) to Git (`git commit` and `git push`).
