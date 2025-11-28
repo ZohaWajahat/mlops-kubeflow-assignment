@@ -47,7 +47,7 @@ The main objective of this task is to create the core building blocks of your ML
 ### Task 2 Deliverable Requirements
 The following specific items are required as proof of completion for Task 2:
 
-• **Components Screenshot:** A screenshot of src/pipeline_components.py file, showing at least two of the component functions.
+• **Components Screenshot:** A screenshot of src/pipeline_components.py file, showing at least two of the component functions.<br>
 • **Generated YAML files Sccreenshot:** A screenshot of the components/ directory containing the generated YAML files for your
-components.
-• **Input & Output Explaination:** A complete explanation of the inputs and outputs you defined for your training component.
+components.<br>
+• **Input & Output Explaination:** A complete explanation of the inputs and outputs you defined for your training component.<br>
