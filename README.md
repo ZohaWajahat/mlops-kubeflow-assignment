@@ -35,3 +35,19 @@ The following specific items are required as proof of completion for Task 1:
 • **Repository Screenshot:** A clear screenshot of your GitHub repository's main page showing the complete file structure created in this task.<br>
 • **DVC Execution Screenshot:** A screenshot of your terminal/command line showing the successful execution of both the `dvc status` and `dvc push` commands. This proves the data is versioned and successfully mirrored to the remote storage.<br>
 • **`requirements.txt` Content:** The raw text content of your `requirements.txt` file, listing the essential libraries.
+
+## Task 2: Building Kubeflow Pipeline Components
+The main objective of this task is to create the core building blocks of your ML pipeline as reusable Kubeflow components.
+
+### Steps to be done in Task 2
+* [ ] Write four component functions in `src/pipeline_components.py` (Extraction, Preprocessing, Training, Evaluation).
+* [ ] Use the `@kfp.dsl.component` decorator for all functions, defining clear inputs/outputs.
+* [ ] Compile the components into YAML files and save them in the `components/` directory.
+
+### Task 2 Deliverable Requirements
+The following specific items are required as proof of completion for Task 2:
+
+• **Components Screenshot:** A screenshot of src/pipeline_components.py file, showing at least two of the component functions.
+• **Generated YAML files Sccreenshot:** A screenshot of the components/ directory containing the generated YAML files for your
+components.
+• **Input & Output Explaination:** A complete explanation of the inputs and outputs you defined for your training component.
